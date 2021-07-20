@@ -4,11 +4,9 @@ kind: Application
 metadata:
   labels:
     weave-gitops.weave.works/app-identifier: wego-4c3282a70e4a1d6244aa99b2e856ef83
-    weave-gitops.weave.works/automation-apiversionkind: kustomize.toolkit.fluxcd.io/v1beta1,
-      Kind=Kustomization
+    weave-gitops.weave.works/automation-apiversionkind: kustomize.toolkit.fluxcd.io_v1beta1_Kustomization
     weave-gitops.weave.works/automation-name: podinfo
-    weave-gitops.weave.works/source-apiversionkind: source.toolkit.fluxcd.io/v1beta1,
-      Kind=GitRepository
+    weave-gitops.weave.works/source-apiversionkind: source.toolkit.fluxcd.io_v1beta1_GitRepository
     weave-gitops.weave.works/source-name: podinfo
   name: podinfo
   namespace: wego-system
