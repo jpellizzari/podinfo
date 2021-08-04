@@ -8,6 +8,7 @@ metadata:
   namespace: wego-system
 spec:
   branch: master
+  config_url: ssh://git@github.com/jpellizzari/podinfo.git
   deployment_type: kustomize
   path: ./
   source_type: git
